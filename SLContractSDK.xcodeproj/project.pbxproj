@@ -8,18 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CBD8152122F95FA000063111 /* SLContractSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD8151F22F95FA000063111 /* SLContractSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBD8154422F962B600063111 /* SLContractKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8154322F962B600063111 /* SLContractKit.swift */; };
-		CBD8154622F9630A00063111 /* SLInfoKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8154522F9630A00063111 /* SLInfoKit.swift */; };
-		CBD8154822F9634F00063111 /* SLUrlDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8154722F9634F00063111 /* SLUrlDef.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CBD8151C22F95FA000063111 /* SLContractSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLContractSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD8151F22F95FA000063111 /* SLContractSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLContractSDK.h; sourceTree = "<group>"; };
 		CBD8152022F95FA000063111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBD8154322F962B600063111 /* SLContractKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContractKit.swift; sourceTree = "<group>"; };
-		CBD8154522F9630A00063111 /* SLInfoKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLInfoKit.swift; sourceTree = "<group>"; };
-		CBD8154722F9634F00063111 /* SLUrlDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUrlDef.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,7 +249,6 @@
 		CBD8153F22F9619900063111 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				CBD8154722F9634F00063111 /* SLUrlDef.swift */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -263,8 +256,6 @@
 		CBD8154022F9621F00063111 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				CBD8154522F9630A00063111 /* SLInfoKit.swift */,
-				CBD8154322F962B600063111 /* SLContractKit.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -349,9 +340,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD8154422F962B600063111 /* SLContractKit.swift in Sources */,
-				CBD8154622F9630A00063111 /* SLInfoKit.swift in Sources */,
-				CBD8154822F9634F00063111 /* SLUrlDef.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
