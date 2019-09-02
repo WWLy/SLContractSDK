@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SLContractSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of SLContractSDK."
 
 
@@ -32,5 +32,8 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
 
   spec.source_files  = "SLContractSDK/**/*.{h,m,swift}", "SLContractSDK/SLContractSDK.h"
+
+
+  spec.dependency 'AFNetworking', '~> 3.2.1'
 
 end
