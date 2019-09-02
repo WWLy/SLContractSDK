@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '8.0'
 
-  spec.source_files  = "SLContractSDK/**/*.{h,m,swift}", "SLContractSDK/SLContractSDK.h"
+  # spec.source_files  = "SLContractSDK/**/*.{h,m,swift}", "SLContractSDK/SLContractSDK.h"
 
   spec.dependency 'AFNetworking', '~> 3.2.1'
   spec.dependency 'MJExtension'
