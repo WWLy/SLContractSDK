@@ -29,6 +29,8 @@ Pod::Spec.new do |spec|
   spec.author       = { "wwly" => "wwlyvip@163.com" }
   spec.source       = { :git => 'https://github.com/wwly/SLContractSDK.git', :tag => spec.version.to_s }
 
+  spec.vendored_frameworks = "SLContractSDK.framework"
+
   spec.ios.deployment_target = '8.0'
 
   spec.source_files  = "SLContractSDK/**/*.{h,m,swift}", "SLContractSDK/SLContractSDK.h"
